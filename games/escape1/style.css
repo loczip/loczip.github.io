@@ -1,0 +1,22 @@
+* {margin: 0; font-weight: normal;}
+html, body {height: 100%;}
+body {background-color: #000;}
+
+.center {display: flex; justify-content: center; align-items: center; height: 100%;}
+img {cursor: pointer;}
+
+.start {background-color: #fff; border-radius: 10px; width: 700px; height: 550px;}
+.start div {text-align: center; margin: 15px;}
+.start * {color: #000;}
+.start a {color: black;}
+.start p {font-size: 20px;}
+.start input {width: 20%; height: 50px; font-size: 20px; font-family: "Consolas"; cursor: pointer; border-radius: 1px;}
+.a:hover {color: #bababa; transition: 0.1s; cursor: pointer; text-decoration: none;}
+.arrow {border-top: solid 1px white; border-left: solid 1px white; border-bottom: solid 1px #757575; border-right: solid 1px #757575; cursor: pointer; display: inline-block; width: 40px; height: 40px;}
+.arrow:active {border-bottom: solid 1px white; border-right: solid 1px white; border-top: solid 1px #757575; border-left: solid 1px #757575;}
+#row {width: 100%; height: 100%;}
+#main {width: 30%; height: 100%; flex: 2;}
+#main div {background-color: #bababa; height: 90%; width: 80%;}
+#arrow {width: 30%; height: 100%; flex: 1;}
+#arrow div {text-align: center;}
+#arrow img {margin: 5px; padding: 0;}
