@@ -19,6 +19,18 @@
 				</div>
 			</div>
 		</div>
-		<script type="text/javascript" src="script.js"></script>
+		<script>
+			var move = function() {location.href = "zoom.html";}
+			var url = document.getElementById("url");
+			var torf = document.getElementById("torf");
+			document.getElementById("go").onclick = function() {
+				if (url.value != "zoom") {
+					torf.innerHTML = "答えが違います";
+				} else {
+					torf.innerHTML = "正解です!";
+					setTimeout(move, 500);
+				}
+			}
+		</script>
 	</body>
 </html>
