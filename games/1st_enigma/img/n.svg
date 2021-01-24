@@ -23,7 +23,7 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
+     inkscape:zoom="0.47808738"
      inkscape:cx="785.11053"
      inkscape:cy="550.95396"
      inkscape:document-units="mm"
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -186,13 +186,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;line-height:1.25;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.264583"
-       x="117.59859"
-       y="247.49158"
+       x="154.67776"
+       y="246.38474"
        id="text824"><tspan
          sodipodi:role="line"
          id="tspan822"
-         x="117.59859"
-         y="247.49158"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.264583">ほしいまま</tspan></text>
+         x="154.67776"
+         y="246.38474"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.264583">くみ</tspan></text>
   </g>
 </svg>
