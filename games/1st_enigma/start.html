@@ -1,1 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>THE FIRST ENIGMA</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<a href="index.html" class="topleft nodeco">ホームに戻る</a>
+		<a href="hints.html" class="topright nodeco">ヒント</a>
+		<div class="center">
+			<div>
+				<p class="consolas" size="16">-- start.html --</p>
+				<br>
+				<img src="img/start.svg" alt="Error??" width="700px" height="420px"></img>
+				<br>
+				<div>
+					<input type="url" id="url" placeholder="Please enter answer" class="consolas"><input type="button" value="Let's Go!" id="go" class="consolas"><br><br><p id="torf"></p>
+				</div>
+			</div>
+		</div>
+		<script>
+			var move = function() {location.href = "riddle.html";}
+			var url = document.getElementById("url");
+			var torf = document.getElementById("torf");
+			document.getElementById("go").onclick = function() {
+				if (url.value != "riddle") {
+					torf.innerHTML = "答えが違います";
+				} else {
+					torf.innerHTML = "正解です!";
+					setTimeout(move, 500);
+				}
+			}
+		</script>
+	</body>
+</html>
 
