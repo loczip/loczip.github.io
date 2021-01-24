@@ -1,0 +1,11 @@
+* {margin: 0; font-weight: normal;}
+a {color: #000;}
+a:hover {color: #bababa; transition: 0.3s; text-decoration: none;}
+
+center {margin: 40px 15px;}
+center p, center span, center a {font-size: 20px;}
+
+.consolas {font-family: "Consolas";}
+
+#go, #url {font-family: "Consolas"; margin: 0 15px; height: 25px;}
+#go {cursor: pointer;}
