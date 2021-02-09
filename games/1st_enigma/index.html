@@ -10,8 +10,8 @@
 			<h1>こんにちは!</h1><br><br>
 			<p>これは、lockerの初めて作ったゲーム(...web謎?)です。</p>
 			<p>まず、ルール説明(語彙力壊滅)をしておきます!</p><br>
-			<h2>ルール</h2>
-			<p>このサイトの中で、謎を解いて、ゴールとなるページ(のurl)を探してください.</p>
+			<h2>ルール(<span class="bold">よく読んでください</span>)</h2>
+			<p>このサイトの中で、謎を解いて、ゴールとなるページまでたどり着いてください。</p>
 			<p>( ちなみに、ゴールは2つあります。まあ、1つめは2つめのヒントみたいなもんですが...w )</p><br>
 			<p>ゴールに行きたい人は、まずは下のLet's Go!ってボタンを押してください。</p>
 			<p>そしたら、謎が現れます。たぶん。</p>
@@ -22,10 +22,14 @@
 			<p>ではでは、いってらっしゃい!!</p><br><br>
 			<input type="url" id="url" value="start" class="consolas"><input type="button" value="Let's Go!" id="go" class="consolas">
 		</center>
+		<div class="b0"><p>※この謎解きに著作権はありません。テキトーに転載やらなんやらしてくれて大丈夫です。</p></div>
 		<script>
 			document.getElementById("go").onclick = function() {
 				location.href = document.getElementById("url").value + ".html";
 			};
+			if (document.referrer.indexOf("quest") >= 0) {
+				document.getElementById("nq").display = "none";
+			}
 		</script>
 	</body>
 </html>
